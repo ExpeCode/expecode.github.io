@@ -10,33 +10,30 @@
     background-color: #FFFFFF;
    }
    .logo-container {
-    display: inline;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    align-items:center;
    }
    .logo-img {
     width: 10vh;
     height: 10vh;
-    margin-top: auto;
-    margin-bottom: auto;
+    vertical-align: middle;
    }
    .logo-text {
     color: rgb(255, 0, 0);
-    line-height: 10vh;
     text-align: center;
     font-size: 10vh;
     font-weight: bold;
-    margin-left: 5vh;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-left: 4vh;
    }
   </style>
  </head>
  <body>
   <div class="logo-container">
-   <img class="logo-img" src="/assets/ExpeCode.png" alt="ExpeCode"><font class="logo-text">ExpeCode</font>
+   <img class="logo-img" src="/assets/ExpeCode.png" alt="ExpeCode"><span class="logo-text">ExpeCode</span>
   </div>
  </body>
 </html>
